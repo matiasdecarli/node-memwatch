@@ -14,7 +14,7 @@
     "url" : "https://github.com/lloyd/node-memwatch/issues"
   },
   "scripts": {
-    "install": "node-gyp rebuild --msvs-version=2012",
+    "install": "node-gyp rebuild -msvs_version=2013",
     "test": "mocha tests"
   },
   "devDependencies": {
